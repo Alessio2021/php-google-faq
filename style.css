@@ -13,6 +13,20 @@ header {
     background-color: white;
 }
 
+.header-top {
+    padding: 20px 0 0 60px;
+}
+
+header span {
+ font-size: 30px;
+ color: grey;
+}
+
+header img {
+    width: 100px;
+    vertical-align: bottom;
+}
+
 header ul{
     list-style-type: none;
     display: flex;
@@ -24,6 +38,8 @@ header ul li a{
     text-decoration: none;
     color: grey;
 }
+
+/* MAIN */
 
 .container {
     width: 60%;
@@ -40,6 +56,8 @@ p{
 .d-flex {
     display: flex;
 }
+
+/* FOOTER */
 
 footer {
     margin: auto;
